@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Print "Holberton School" 10 times w/ while loop, say bad luck on 4th turn,
+#Print "Best School" 10 times w/ while loop, say bad luck on 4th turn,
 #good luck on 7th
 
 i="0"
@@ -10,7 +10,7 @@ while ((i < 10)); do
     elif [ $i == 7 ]; then
 	echo "good luck"
     else
-        echo "Holberton School"
+        echo "Best School"
     fi
 
     i=$((i + 1))
